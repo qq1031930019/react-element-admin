@@ -1,0 +1,36 @@
+.login {
+    background: url('../../assets/images/starry.jpg') no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    // position: fixed;
+    // z-index: 100000;
+    // top: 0;
+    // left: 0;
+
+    .login-box {
+        position: fixed;
+        left: 80%;
+        top: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 330px;
+        background: rgba(178, 192, 232, .3);
+        border-radius: 4px;
+        padding: 20px 20px 30px;
+        box-sizing: border-box;
+    }
+
+    .x-width-bf100 {
+        width: 100%;
+    }
+
+    .login-title {
+        color: #fff;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        border-bottom: 1px solid #ddd;
+    }
+}

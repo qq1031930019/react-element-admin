@@ -1,0 +1,61 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,div{margin:0;padding:0;box-sizing: border-box;}
+body{font:12px"PingFangSC-Regular","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color: #20a0ff;text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+html {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+html, body{
+    width: 100%; 
+    height: 100%;
+    background: #eceff3!important;
+}
+#root {
+    width: 100%;
+    height: 100%;
+    >div:first-child {
+        width: 100%;
+        height: 100%;
+        .nav-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background: #0f1319;
+        }
+    }
+}
+.content-box {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+}
+.blue {
+    color: #20a0ff;
+}
+.x-table-box {
+    width: calc(100% - 20px);
+    height: calc(100% - 60px);
+    margin: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+.x-mrt-10 {
+    margin-top: 10px !important;
+}
+.x-mrt-20 {
+    margin-top: 20px !important;
+}

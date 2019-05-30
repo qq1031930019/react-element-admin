@@ -1,0 +1,20 @@
+.tac {
+   height: 100%; 
+   .el-menu {
+       background: #0f1319 !important;
+   }
+   .is-opened {
+       background: #0f1319 !important;
+   }
+   .is-active {
+        background-color: #384f67 !important;
+        a {
+            color: #20a0ff !important;
+        }
+    }
+    .el-menu-item:hover {
+        a {
+            color: #20a0ff !important;
+        }
+    }
+}
